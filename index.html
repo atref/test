@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sketchy FlexChart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.grapecity.com/wijmo/5.latest/styles/wijmo.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/roughjs@3.0.0/dist/rough.min.js"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.min.js"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.chart.min.js"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.chart.hierarchical.min.js"></script>
+    <script src="https://cdn.grapecity.com/wijmo/5.latest/controls/wijmo.input.min.js"></script>
+
+    <script src="js/data.js"></script>
+    <script src="js/draw.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <label>Palette:</label>
+        <div id="palette"></div>
+        <label>Fill Style:</label>
+        <div id="fill"></div>
+    </div>
+    <div class="container">
+        <div id="chart">
+        </div>
+        <div id="pie">
+        </div>
+        <div id="area">
+        </div>
+        <div id="line">
+        </div>
+        <div id="bubble">
+        </div>
+        <div id="tree">
+        </div>
+    </div>
+</body>
+
+</html>
